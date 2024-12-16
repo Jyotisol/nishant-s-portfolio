@@ -49,7 +49,7 @@ const Training = () => {
         <motion.img
           src={img}
           alt={`Training project ${id}`}
-          className="w-full h-[200px] object-cover"
+          className="w-full h-[200px] object-cover "
           initial={{ scale: 0.9 }}
           animate={{ scale: isInView ? 1 : 0.9 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
@@ -63,10 +63,10 @@ const Training = () => {
       <h1 className="font-bold text-4xl md:text-6xl mb-12 w-full text-center">
         Experience as a Trainer
       </h1>
-      <p className="font-semibold text-center text-gray-700 px-4 md:px-8 lg:px-32 mb-10">
+      <p className="font-semibold text-center text-gray-700 px-4 md:px-8 lg:px-32 mb-10 dark:text-light/75">
         {description}
       </p>
-      <div className="flex overflow-x-auto mt-10 sm:grid sm:grid-cols-1 sm:grid-cols-2 gap-6 px-6 md:px-16 lg:px-32 sm:w-full">
+      <div className="flex overflow-x-auto mt-10 sm:grid sm:grid-cols-1 sm:grid-cols-2 gap-6 py-[-4px] md:px-5 sm:ml-[-24px] lg:px-32 sm:w-[115%] smx:w-[50rem] ">
         {projects.map(({ id, img }) => (
           <ProjectCard key={id} id={id} img={img} />
         ))}
