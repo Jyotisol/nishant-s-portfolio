@@ -22,7 +22,7 @@ const Skills = () => {
 
   useEffect(() => {
     const updatePositions = () => {
-      if (window.innerWidth > 769) {
+      if (window.innerWidth > 569) {
         // Mobile-friendly positions
         setPositions([
           {name :"SEO", x:"-20vw", y:"-1vw" },
