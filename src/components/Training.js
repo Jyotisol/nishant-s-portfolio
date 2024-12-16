@@ -60,7 +60,7 @@ const Training = () => {
 
   return (
     <div className="py-20" id="training">
-      <h1 className="font-bold text-4xl md:text-6xl mb-12 w-full text-center">
+      <h1 className="font-bold text-4xl md:text-6xl mb-12 w-full text-center xs:text-4xl md:mb-16">
         Experience as a Trainer
       </h1>
       <p className="font-semibold text-center text-gray-700 px-4 md:px-8 lg:px-32 mb-10 dark:text-light/75">
