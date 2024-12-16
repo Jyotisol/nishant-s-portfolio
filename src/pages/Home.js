@@ -12,11 +12,11 @@ export default function Home() {
   return (
     <>
     <TransitionEffect />
-      <main className="flex items-center text-dark w-full  dark:text-light">
+      <main className="flex items-center text-dark w-full  dark:text-light ">
         <Layout className="pt-0 md:pt-16 sm:pt-8 ">
           <div className="flex items-center justufy-between text-dark w-full lg:flex-col">
             <div className="w-1/2 md:w-full">
-              <img src={profilePic} alt="Profile" className="w-[30em] h-[30em] rounded-[6em] mt-6 lg:hidden md:inline-block md:w-full " 
+              <img src={profilePic} alt="Profile" className="w-[30em] h-[25em] rounded-[6em] mt-[30px] lg:hidden md:inline-block md:w-full " 
                  periority
                  sizes="(max-width:776px) 100vw, 
                  (max-width: 1200px) 50vw, 50vw"

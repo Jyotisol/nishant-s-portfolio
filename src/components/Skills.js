@@ -40,14 +40,14 @@ const Skills = () => {
         // Desktop positions
         setPositions([
           { name: "SEO", x: "-30vw", y: "-1vw" },
-          { name: "PPC", x: "-1vw", y: "-25vw" },
-          { name: "Meta Ads", x: "34vw", y: "-1vw" },
-          { name: "Google ADS", x: "0vw", y: "23vw" },
-          { name: "Search Engine Marketing", x: "25vw", y: "35vw" },
-          { name: "Content Writing", x: "-20vw", y: "-46vw" },
-          { name: "Performance Marketing", x: "25vw", y: "-40vw" },
-          { name: "Whatsapp Marketing", x: "2vw", y: "55vw" },
-          { name: "Social Media Marketing", x: "-27vw", y: "39vw" },
+          { name: "Google ADS ", x: "1vw", y: "-28vw" },
+          { name: " PPC ", x: "34vw", y: "-1vw" },
+          { name: "Meta Ads", x: "0vw", y: "23vw" },
+          { name: "Social Media Marketing", x: "-1vw", y: "55vw" },
+          { name: "Content Writing", x: "1.5vw", y: "-49vw" },
+          { name: "Performance Marketing", x: "3vw", y: "-66vw" },
+          { name: "Search Engine Marketing ", x: "-1vw", y: "70vw" },
+          { name: "Whatsapp Marketing", x: "-1vw", y: "39vw" },
         ]);
       }
     };
