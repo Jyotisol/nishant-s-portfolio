@@ -42,8 +42,8 @@ const ContactForm = () => {
   };
 
   return (
-    <div id="connect" className="flex justify-center items-center min-h-screen bg-gray-100 py-6 w-full">
-      <div className="w-full max-w-lg bg-white shadow-md rounded-lg p-8 space-y-6">
+    <div id="connect" className="flex justify-center items-center min-h-screen bg-gray-100 py-6 w-full  dark:bg-dark ">
+      <div className="w-full max-w-lg bg-white shadow-md rounded-lg p-8 space-y-6 ">
         <h2 className="text-2xl font-bold text-center text-gray-800">Let's connect</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
