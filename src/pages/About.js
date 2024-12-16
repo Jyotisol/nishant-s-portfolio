@@ -8,6 +8,7 @@ import AnimetedText from '../components/AnimetedText';
 import TransitionEffect from '../components/TransitionEffect';
 import Skills from '../components/Skills';
 import Training from '../components/Training';
+import ContactForm from '../components/email/ContactForm';
 
 const AnimatedNumber = ({ value }) => {
   const ref = useRef(null);
@@ -96,6 +97,7 @@ const About = () => {
           <Training />
           <Skills />
         </Layout>
+        <ContactForm />
       </main>
     </>
   );
